@@ -1,0 +1,3 @@
+.cog/
+node_modules/
+*.tgz
