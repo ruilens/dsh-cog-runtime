@@ -1,0 +1,8 @@
+# 提交到 awesome-dsh-plugin 时，把这个文件放到
+# data/plugins/ruilens__dsh-cog-runtime.yml
+url: https://github.com/ruilens/dsh-cog-runtime
+name: ruilens/dsh-cog-runtime
+category: agi
+description:
+  en: A cognitive runtime for DSH that refuses to mark a task done without verifiable evidence.
+  zh: 让 DSH 在缺少可核验证据时无法把任务标记为完成的认知运行时。
