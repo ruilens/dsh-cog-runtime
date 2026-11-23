@@ -1,0 +1,41 @@
+{
+  "name": "dsh-cog-runtime",
+  "version": "0.1.0",
+  "description": "Cognitive runtime for DSH: task graph, evidence ledger, decision log. Makes fake completion impossible.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "cordis.patch.yml",
+    "dsh.plugin.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=24.9.0",
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "author": "SASI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruilens/dsh-cog-runtime.git"
+  },
+  "homepage": "https://github.com/ruilens/dsh-cog-runtime#readme",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "agent",
+    "task-graph",
+    "evidence",
+    "cognitive-runtime"
+  ]
+}
