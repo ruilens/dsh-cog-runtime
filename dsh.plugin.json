@@ -1,0 +1,8 @@
+{
+  "id": "dsh-external/dsh-cog-runtime",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "description": "Cognitive runtime: task graph + evidence ledger + decision log; refuses completion without evidence.",
+  "engines": { "dsh": ">=0.2.2-rc.1" },
+  "contributes": { "tools": [], "skills": [] }
+}
